@@ -10,7 +10,6 @@ import org.bukkit.inventory.ItemStack;
 
 import java.io.File;
 import java.io.IOException;
-import java.lang.reflect.Array;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
@@ -24,6 +23,7 @@ public class DeathListener implements Listener {
         Inventory inventory = player.getInventory();
         ItemStack[] items = inventory.getContents();
         List<ItemStack> itemList = new ArrayList<>(Arrays.asList(items));
+        while(itemList.remove(null));
 
         String ext = ".yml";
         File ymlFile = new File(plugin.getDataFolder() + File.separator + "Data" + File.separator + player.getUniqueId() + ext);
