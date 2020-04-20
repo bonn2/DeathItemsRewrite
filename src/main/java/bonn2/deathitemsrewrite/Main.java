@@ -8,7 +8,7 @@ import java.util.Objects;
 
 public final class Main extends JavaPlugin {
 
-    static Main plugin;
+    public static Main plugin;
     public static YamlConfiguration lang;
 
     @Override

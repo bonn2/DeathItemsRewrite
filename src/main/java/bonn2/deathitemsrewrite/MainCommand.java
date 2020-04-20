@@ -35,7 +35,7 @@ public class MainCommand implements CommandExecutor {
                         chest.getInventory().setContents(items);
                         player.sendMessage(Objects.requireNonNull(lang.getString("Success")));
                         return true;
-                    } catch (ClassCastException ignored) {
+                    } catch (ClassCastException | NullPointerException ignored) {
                         player.sendMessage(Objects.requireNonNull(lang.getString("RequireDoubleChest")));
                         return true;
                     }
