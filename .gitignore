@@ -1,3 +1,6 @@
+# Gradle Logs
+.gradle/
+
 # Compiled class file
 *.class
 
