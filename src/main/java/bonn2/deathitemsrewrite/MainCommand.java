@@ -1,6 +1,5 @@
 package bonn2.deathitemsrewrite;
 
-import bonn2.deathitemsrewrite.utils.ChatColorizer;
 import org.bukkit.Bukkit;
 import org.bukkit.FluidCollisionMode;
 import org.bukkit.block.BlockState;
@@ -35,16 +34,16 @@ public class MainCommand implements CommandExecutor {
                         assert chest != null;
                         for (ItemStack item : chest.getInventory().getContents()) { chest.getInventory().remove(item); }
                         chest.getInventory().setContents(items);
-                        player.sendMessage(Objects.requireNonNull(ChatColorizer.colorize(lang.getString("Success"))));
+                        player.sendMessage(Objects.requireNonNull(lang.getString("Success")));
                         return true;
                     } catch (ClassCastException | NullPointerException ignored) {
-                        player.sendMessage(Objects.requireNonNull(ChatColorizer.colorize(lang.getString("RequireDoubleChest"))));
+                        player.sendMessage(Objects.requireNonNull(lang.getString("RequireDoubleChest")));
                         return true;
                     }
                 }
             }
         } else {
-            sender.sendMessage(Objects.requireNonNull(ChatColorizer.colorize(lang.getString("RequirePlayer"))));
+            sender.sendMessage(Objects.requireNonNull(lang.getString("RequirePlayer")));
             return true;
         }
         return false;
