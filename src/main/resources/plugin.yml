@@ -1,0 +1,11 @@
+name: DeathItemsRewrite
+version: @version@
+main: bonn2.deathitemsrewrite.Main
+api-version: 1.13
+commands:
+  deathitems:
+    description: Main DeathItems Command
+    aliases: di
+    permission: deathitems.use
+    permission-message: You not have have permission to use this command!
+    usage: /deathitems <player> <death>
