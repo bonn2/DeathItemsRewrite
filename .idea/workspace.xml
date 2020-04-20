@@ -2,26 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1cfc8d08-d308-44c3-8b80-01c2f822cb21" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.6.1/executionHistory/executionHistory.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.6.1/executionHistory/executionHistory.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.6.1/fileChanges/last-build.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.6.1/fileContent/fileContent.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.6.1/fileHashes/fileHashes.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.6.1/fileHashes/fileHashes.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.6.1/gc.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.6.1/javaCompile/classAnalysis.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.6.1/javaCompile/javaCompile.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.6.1/javaCompile/taskHistory.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/vcs-1/gc.properties" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/bonn2/deathitemsrewrite/utils/ChatColorizer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/config.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/en_US.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/plugin.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/tmp/jar/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/bonn2/deathitemsrewrite/MainCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bonn2/deathitemsrewrite/MainCommand.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/bonn2/deathitemsrewrite/MainTabComplete.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bonn2/deathitemsrewrite/MainTabComplete.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -66,7 +49,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../BlockReference" />
   </component>
   <component name="RunManager">
     <configuration name="DeathItemsRewrite build" type="GradleRunConfiguration" factoryName="Gradle">
@@ -107,26 +90,26 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="446" y="50" key="#com.intellij.ide.util.MemberChooser/0.0.1280.680@0.0.1280.680" timestamp="1587351280846" />
-    <state x="421" y="96" key="FileChooserDialogImpl" timestamp="1587349495028">
+    <state x="421" y="96" key="FileChooserDialogImpl" timestamp="1587416626125">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="421" y="96" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1587349495028" />
-    <state width="1237" height="163" key="GridCell.Tab.0.bottom" timestamp="1587394223413">
+    <state x="421" y="96" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1587416626125" />
+    <state width="1237" height="163" key="GridCell.Tab.0.bottom" timestamp="1587417753564">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="163" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1587394223413" />
-    <state width="1237" height="163" key="GridCell.Tab.0.center" timestamp="1587394223412">
+    <state width="1237" height="163" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1587417753564" />
+    <state width="1237" height="163" key="GridCell.Tab.0.center" timestamp="1587417753563">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="163" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1587394223412" />
-    <state width="1237" height="163" key="GridCell.Tab.0.left" timestamp="1587394223412">
+    <state width="1237" height="163" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1587417753563" />
+    <state width="1237" height="163" key="GridCell.Tab.0.left" timestamp="1587417753563">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="163" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1587394223412" />
-    <state width="1237" height="163" key="GridCell.Tab.0.right" timestamp="1587394223413">
+    <state width="1237" height="163" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1587417753563" />
+    <state width="1237" height="163" key="GridCell.Tab.0.right" timestamp="1587417753564">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="163" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1587394223413" />
+    <state width="1237" height="163" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1587417753564" />
     <state x="337" y="165" key="com.intellij.ide.util.TipDialog" timestamp="1587393044264">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -135,9 +118,13 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="0" y="0" width="742" height="680" key="find.popup/0.0.1280.680@0.0.1280.680" timestamp="1587344983024" />
-    <state x="91" y="11" key="new project wizard" timestamp="1587352380133">
+    <state x="91" y="11" key="new project wizard" timestamp="1587401130871">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="91" y="11" key="new project wizard/0.0.1280.680@0.0.1280.680" timestamp="1587352380133" />
+    <state x="91" y="11" key="new project wizard/0.0.1280.680@0.0.1280.680" timestamp="1587401130871" />
+    <state x="303" y="1" width="672" height="678" key="search.everywhere.popup" timestamp="1587418483415">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="303" y="1" width="672" height="678" key="search.everywhere.popup/0.0.1280.680@0.0.1280.680" timestamp="1587418483415" />
   </component>
 </project>
