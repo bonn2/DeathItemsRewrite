@@ -19,6 +19,11 @@ public final class Main extends JavaPlugin {
         setupConfig();
         setupLang();
 
+        if (getConfig().getBoolean("EnableMetrics")) {
+            int pluginId = 7458;
+            Metrics metrics = new Metrics(this, pluginId);
+        }
+
         getServer().getPluginManager().registerEvents(new DeathListener(), this);
 
         Objects.requireNonNull(this.getCommand("deathitems")).setExecutor(new MainCommand());
