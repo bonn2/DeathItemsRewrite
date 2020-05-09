@@ -2,9 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1cfc8d08-d308-44c3-8b80-01c2f822cb21" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/DeathItemsRewrite.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/discord.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradle.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gradle.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/bonn2/deathitemsrewrite/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bonn2/deathitemsrewrite/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/bonn2/deathitemsrewrite/MainCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bonn2/deathitemsrewrite/MainCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/bonn2/deathitemsrewrite/MainTabComplete.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bonn2/deathitemsrewrite/MainTabComplete.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/bonn2/deathitemsrewrite/utils/ChatColorizer.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/en_US.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/en_US.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/plugin.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/plugin.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,13 +51,13 @@
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../BlockReference" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RunManager">
     <configuration name="DeathItemsRewrite build" type="GradleRunConfiguration" factoryName="Gradle">
@@ -89,26 +98,30 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="446" y="50" key="#com.intellij.ide.util.MemberChooser/0.0.1280.680@0.0.1280.680" timestamp="1587351280846" />
-    <state x="421" y="96" key="FileChooserDialogImpl" timestamp="1587416626125">
+    <state x="421" y="96" key="FileChooserDialogImpl" timestamp="1587485625748">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="421" y="96" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1587416626125" />
-    <state width="1237" height="163" key="GridCell.Tab.0.bottom" timestamp="1587419882538">
+    <state x="421" y="96" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1587485625748" />
+    <state width="1237" height="163" key="GridCell.Tab.0.bottom" timestamp="1589055000545">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="163" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1587419882538" />
-    <state width="1237" height="163" key="GridCell.Tab.0.center" timestamp="1587419882538">
+    <state width="1237" height="163" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1589055000545" />
+    <state width="1237" height="163" key="GridCell.Tab.0.center" timestamp="1589055000545">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="163" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1587419882538" />
-    <state width="1237" height="163" key="GridCell.Tab.0.left" timestamp="1587419882537">
+    <state width="1237" height="163" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1589055000545" />
+    <state width="1237" height="163" key="GridCell.Tab.0.left" timestamp="1589055000544">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="163" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1587419882537" />
-    <state width="1237" height="163" key="GridCell.Tab.0.right" timestamp="1587419882538">
+    <state width="1237" height="163" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1589055000544" />
+    <state width="1237" height="163" key="GridCell.Tab.0.right" timestamp="1589055000545">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="163" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1587419882538" />
+    <state width="1237" height="163" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1589055000545" />
+    <state x="142" y="0" key="SettingsEditor" timestamp="1587421367887">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="142" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1587421367887" />
     <state x="337" y="165" key="com.intellij.ide.util.TipDialog" timestamp="1587393044264">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -117,10 +130,10 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="0" y="0" width="742" height="680" key="find.popup/0.0.1280.680@0.0.1280.680" timestamp="1587344983024" />
-    <state x="91" y="11" key="new project wizard" timestamp="1587401130871">
+    <state x="91" y="11" key="new project wizard" timestamp="1587431794056">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="91" y="11" key="new project wizard/0.0.1280.680@0.0.1280.680" timestamp="1587401130871" />
+    <state x="91" y="11" key="new project wizard/0.0.1280.680@0.0.1280.680" timestamp="1587431794056" />
     <state x="303" y="1" width="672" height="678" key="search.everywhere.popup" timestamp="1587418483415">
       <screen x="0" y="0" width="1280" height="680" />
     </state>

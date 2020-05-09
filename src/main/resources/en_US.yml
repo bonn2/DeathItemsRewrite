@@ -1,3 +1,4 @@
-Success: Successfully got death items!
-RequireDoubleChest: You must be looking at a Double Chest to use this command!
-RequirePlayer: This command can only be run by a player!
+Success: "&eSuccessfully got death items!"
+RequireDoubleChest: "&cYou must be looking at a Double Chest to use this command!"
+RequirePlayer: "&cThis command can only be run by a player!"
+NoData: "&cThere is no death at number %number%!"

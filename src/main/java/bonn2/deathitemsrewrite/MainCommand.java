@@ -1,6 +1,7 @@
 package bonn2.deathitemsrewrite;
 
 import org.bukkit.Bukkit;
+import org.bukkit.ChatColor;
 import org.bukkit.FluidCollisionMode;
 import org.bukkit.block.BlockState;
 import org.bukkit.block.Chest;
@@ -24,28 +25,44 @@ public class MainCommand implements CommandExecutor {
             Player player = (Player) sender;
             if (args.length == 2) {
                 String ext = ".yml";
-                File playeryml = new File(plugin.getDataFolder() + File.separator + "Data" + File.separator + Bukkit.getServer().getPlayer(args[0]).getUniqueId() + ext);
+                File playeryml;
+                try {
+                    playeryml = new File(plugin.getDataFolder() + File.separator + "Data" + File.separator + Bukkit.getServer().getPlayer(args[0]).getUniqueId() + ext);
+                } catch (NullPointerException exception) {
+                    player.sendMessage(colorize(Objects.requireNonNull(lang.getString("NoData")).replaceAll("%number%", args[1])));
+                    return true;
+                }
                 if (playeryml.exists()) {
                     YamlConfiguration yml = YamlConfiguration.loadConfiguration(playeryml);
-                    ItemStack[] items = yml.getList(args[1]).toArray(new ItemStack[0]);
+                    ItemStack[] items;
+                    try {
+                        items = yml.getList(args[1]).toArray(new ItemStack[0]);
+                    } catch (NullPointerException exception) {
+                        player.sendMessage(colorize(Objects.requireNonNull(lang.getString("NoData")).replaceAll("%number%", args[1])));
+                        return true;
+                    }
                     try {
                         BlockState state = player.getTargetBlockExact(10, FluidCollisionMode.NEVER).getState();
                         DoubleChest chest = (DoubleChest) ((Chest) state).getInventory().getHolder();
                         assert chest != null;
                         for (ItemStack item : chest.getInventory().getContents()) { chest.getInventory().remove(item); }
                         chest.getInventory().setContents(items);
-                        player.sendMessage(Objects.requireNonNull(lang.getString("Success")));
+                        player.sendMessage(Objects.requireNonNull(colorize(lang.getString("Success"))));
                         return true;
                     } catch (ClassCastException | NullPointerException ignored) {
-                        player.sendMessage(Objects.requireNonNull(lang.getString("RequireDoubleChest")));
+                        player.sendMessage(Objects.requireNonNull(colorize(lang.getString("RequireDoubleChest"))));
                         return true;
                     }
                 }
             }
         } else {
-            sender.sendMessage(Objects.requireNonNull(lang.getString("RequirePlayer")));
+            sender.sendMessage(Objects.requireNonNull(colorize(lang.getString("RequirePlayer"))));
             return true;
         }
         return false;
+    }
+
+    public String colorize(String msg) {
+        return ChatColor.translateAlternateColorCodes('&', msg);
     }
 }

@@ -12,7 +12,7 @@ public final class Main extends JavaPlugin {
     public static YamlConfiguration lang;
 
     @Override
-    public void onEnable() {
+    public void onEnable() { // TODO: Add preview screen
         // Plugin startup logic
         plugin = this;
 
