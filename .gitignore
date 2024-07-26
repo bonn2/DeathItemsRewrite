@@ -31,3 +31,6 @@ hs_err_pid*
 .gradle/5.6.1/javaCompile/classAnalysis.bin
 .gradle/5.6.1/javaCompile/javaCompile.lock
 .gradle/buildOutputCleanup/buildOutputCleanup.lock
+
+# Idea project files
+/.idea/
