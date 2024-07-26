@@ -27,7 +27,7 @@ public class MainCommand implements CommandExecutor {
                 String ext = ".yml";
                 File playeryml;
                 try {
-                    playeryml = new File(plugin.getDataFolder() + File.separator + "Data" + File.separator + Bukkit.getServer().getPlayer(args[0]).getUniqueId() + ext);
+                    playeryml = new File(plugin.getDataFolder() + File.separator + "Data" + File.separator + Bukkit.getServer().getOfflinePlayer(args[0]).getUniqueId() + ext);
                 } catch (NullPointerException exception) {
                     player.sendMessage(colorize(Objects.requireNonNull(lang.getString("NoData")).replaceAll("%number%", args[1])));
                     return true;
